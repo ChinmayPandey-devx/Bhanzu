@@ -41,10 +41,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-bhanzu-gray pb-12">
-      {/* Disclaimer Header */}
-      <div className="bg-amber-100 text-amber-800 text-sm py-2 px-4 text-center font-medium">
-        ⚠️ Prototype: The colors used (Vibrant Orange & Deep Navy) are unverified approximations of the Bhanzu brand. Verify with bhanzu.com before finalization.
-      </div>
 
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
