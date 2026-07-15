@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bhanzu-orange: #FF6B35;
+  --color-bhanzu-orange-hover: #FF7A45;
+  --color-bhanzu-navy: #1A2B4C;
+  --color-bhanzu-navy-light: #223355;
+  --color-bhanzu-gray: #FAFAF8;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bhanzu-gray);
+    color: #111827;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
